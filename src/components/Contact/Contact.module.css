@@ -1,0 +1,43 @@
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact_details {
+    display: flex;
+    align-items: center;
+}
+
+.male-icon,
+.female-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.male-icon {
+    color: #3498db;
+}
+
+.female-icon {
+    color: #e74c3c;
+}
+
+.unknown-icon {
+    color: #95a5a6;
+    margin-right: 10px;
+}
+
+.contact-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contact-phone {
+    margin-left: auto;
+    font-size: 14px;
+    color: #888;
+}
